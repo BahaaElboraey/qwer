@@ -4,20 +4,8 @@
 	import '../app.postcss';
 	import { AppShell, AppBar, GradientHeading } from "@brainandbones/skeleton";
 	import { LightSwitch } from '@brainandbones/skeleton';
-	import { Avatar } from '@brainandbones/skeleton';
-	import { Drawer } from '@brainandbones/skeleton';
-	import {drawerOpen, storeDrawer} from '../drawer'
 
 </script>
-
-<!-- <Drawer open={storeDrawer} position="left">
-	<nav class="list-nav">
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-		</ul>
-	</nav>
-</Drawer>	 -->
 
 <!-- svelte-ignore security-anchor-rel-noreferrer -->
 <AppShell slotSidebarLeft="bg-surface-500/5 w-56 -4">
